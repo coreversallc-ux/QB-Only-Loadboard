@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============== Meta / SEO ============== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Core Versa LLC — Dispatching & Driver Onboarding</title>
+  <meta name="description" content="Core Versa LLC dispatches nationwide expedited freight with Amazon-approved loads. Onboard under our authority, choose your membership, and start running with 24/7 dispatcher support." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Core Versa LLC — Dispatching & Driver Onboarding" />
+  <meta property="og:description" content="Onboard under our authority. 24/7 dispatcher support, Amazon-approved freight, and membership options built to scale your earnings." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1549921296-3cca3d9442c2?q=80&w=1600&auto=format&fit=crop" />
+  <meta property="og:url" content="https://coreversallc.com/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- ============== JSON-LD: Organization ============== -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Core Versa LLC",
+    "url":"https://coreversallc.com/",
+    "logo":"https://coreversallc.com/favicon.ico",
+    "sameAs": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.linkedin.com/"
+    ],
+    "contactPoint": [{
+      "@type":"ContactPoint",
+      "telephone":"+1-412-265-5719",
+      "contactType":"Customer Support",
+      "areaServed":"US",
+      "availableLanguage":["English"]
+    }]
+  }
+  </script>
+
+  <!-- ============== Optional: GA / GTM (replace G-XXXXXXX) ============== -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-XXXXXXX');
+  </script> -->
+
+  <!-- ============== Styles ============== -->
+  <style>
+    :root{
+      --brand:#C62828; --brand-2:#FF6B6B; --ink:#e6e8ea; --muted:#a3aab4;
+      --bg:#0b0b0f; --panel:#101318; --card:#0e1218; --max:1200px;
+      --radius:16px; --shadow:0 20px 40px rgba(0,0,0,.35);
+      --grad: radial-gradient(1200px 700px at 10% -10%, #2a3cff1f, transparent 70%),
+              radial-gradient(1000px 600px at 110% 10%, #ff2a2a14, transparent 60%);
+    }
+    *{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--ink); background:var(--bg); background-image:var(--grad)}
+    a{color:#fff; text-decoration:none}
+    img{max-width:100%; height:auto; display:block}
+    .wrap{max-width:var(--max); margin:auto; padding:0 22px}
+    .pill{display:inline-flex; align-items:center; gap:10px; padding:10px 14px; background:#ffffff10; border:1px solid #ffffff20; border-radius:999px; font-weight:700}
+    .btn{display:inline-flex; justify-content:center; align-items:center; gap:10px; padding:14px 18px; border-radius:12px; background:linear-gradient(180deg,var(--brand),#a11212); color:#fff; font-weight:800; border:0; box-shadow:0 8px 18px rgba(198,40,40,.35); cursor:pointer; transition:transform .12s ease}
+    .btn.alt{background:#1f2937; box-shadow:none; border:1px solid #334155}
+    .btn.ghost{background:#ffffff10; border:1px solid #ffffff20; box-shadow:none}
+    .btn:hover{transform:translateY(-1px)}
+    .section{padding:64px 0}
+    header.site{position:sticky; top:0; z-index:40; backdrop-filter:saturate(140%) blur(8px); background:linear-gradient(0deg,rgba(11,11,15,.2),rgba(11,11,15,.6)); border-bottom:1px solid #ffffff1a}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:14px; padding:14px 0}
+    .brand{display:flex; align-items:center; gap:12px; font-weight:900; letter-spacing:.3px}
+    .badge{width:34px; height:34px; border-radius:10px; background:linear-gradient(135deg,var(--brand),var(--brand-2)); box-shadow:0 6px 16px rgba(255,107,107,.35)}
+    .brand h1{font-size:18px; margin:0}
+    .nav a{opacity:.92}
+    .hero{padding:46px 0 30px}
+    .hero-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:36px}
+    @media (max-width:980px){ .hero-grid{grid-template-columns:1fr} }
+    .hero h2{font-size:clamp(28px,4.6vw,52px); line-height:1.06; margin:8px 0 12px}
+    .sub{color:#c0c5cc; margin:0 0 16px}
+    .kpis{display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 22px}
+    .kpi{background:#0f172a; border:1px solid #1f2a44; color:#fff; padding:9px 12px; border-radius:999px; font-weight:700; font-size:14px}
+    .panel{background:linear-gradient(180deg,#0f131a,#0a0d12); border:1px solid #1f2937; border-radius:var(--radius); box-shadow:var(--shadow); padding:22px}
+    .panel h3{margin:0 0 6px; font-size:20px; color:#fff}
+    .panel .lead{color:#f87171; font-weight:700; margin:0 0 12px}
+    label{display:block; font-size:13px; font-weight:800; color:#f87171; margin:12px 0 6px}
+    input, textarea{width:100%; background:#0b0f15; border:1px solid #2b3445; color:#e5e7eb; border-radius:12px; padding:12px 12px; outline:none}
+    input::placeholder, textarea::placeholder{color:#94a3b8}
+    textarea{min-height:120px}
+    .trust{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px}
+    @media (max-width:900px){ .trust{grid-template-columns:1fr} }
+    .trust .card{background:#0d1117; border:1px solid #1f2937; border-radius:14px; padding:18px}
+    .trust h4{margin:0 0 6px}
+    .grid{display:grid; gap:18px}
+    .cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    @media (max-width:980px){ .cols-2,.cols-3{grid-template-columns:1fr} }
+    .card{background:#0d1117; border:1px solid #1f2937; border-radius:16px; padding:20px}
+    .card h3{margin-top:0}
+    .list{list-style:none; padding:0; margin:0}
+    .list li{display:flex; gap:10px; align-items:flex-start; margin:10px 0; color:#cbd5e1}
+    .list li::before{content:""; width:10px; height:10px; border-radius:50%; background:var(--brand); margin-top:6px; box-shadow:0 0 0 6px rgba(198,40,40,.18)}
+    .mini{font-size:12px; color:#94a3b8}
+    .faq details{background:#0d1117; border:1px solid #1f2937; border-radius:16px; padding:0; overflow:hidden}
+    .faq summary{list-style:none; padding:14px 16px; cursor:pointer; font-weight:800}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq details div{padding:0 16px 16px; color:#cbd5e1}
+    .footer{border-top:1px solid #ffffff14; padding:30px 0; color:#cbd5e1; font-size:14px}
+    .ghost{opacity:.86}
+    .heroart{border-radius:18px; overflow:hidden; border:1px solid #1f2937}
+    .badges{display:flex; gap:10px; flex-wrap:wrap; margin-top:8px}
+    .badge-soft{font-size:12px; padding:6px 10px; border-radius:999px; border:1px solid #334155; background:#0f172a; color:#cbd5e1}
+    .logos{display:flex; gap:20px; align-items:center; flex-wrap:wrap; opacity:.9}
+    .logos img{height:28px; opacity:.85; filter:grayscale(100%) brightness(1.1)}
+    blockquote.testi{margin:0; padding:18px; border:1px solid #213047; background:#0c1118; border-radius:14px; color:#dbe2ea}
+    blockquote.testi footer{margin-top:10px; color:#94a3b8; font-size:12px}
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0}
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site" role="banner">
+    <div class="wrap nav">
+      <a class="brand" href="#" aria-label="Core Versa LLC Home">
+        <span class="badge" aria-hidden="true"></span>
+        <h1>Core Versa LLC — Dispatch</h1>
+      </a>
+      <nav aria-label="Primary">
+        <a class="pill" href="#options">Memberships</a>
+        <a class="pill" href="#steps">Onboarding</a>
+        <a class="pill" href="tel:+14122655719">📞 (412) 265-5719</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="main" class="hero" role="main">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="pill ghost">Operate under our authority</span>
+        <h2>High-Velocity Dispatching for Expedited & Amazon-Approved Freight</h2>
+        <p class="sub">Onboard in minutes, choose the membership that fits, and get matched to loads with <strong>24/7 dispatcher support</strong>.</p>
+        <div class="kpis" aria-label="Highlights">
+          <span class="kpi">24/7 Dispatcher Support</span>
+          <span class="kpi">Amazon-Approved Freight</span>
+          <span class="kpi">Run Under Our Authority</span>
+        </div>
+        <div class="badges" aria-label="Trust Badges">
+          <span class="badge-soft">🔥 Most Popular: Pro</span>
+          <span class="badge-soft">✅ Fast Approval</span>
+          <span class="badge-soft">💳 Quick Pay Options</span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px">
+          <a href="#options" class="btn" aria-label="View Memberships">View Memberships</a>
+          <a href="#apply" class="btn alt" aria-label="Start Onboarding">Start Onboarding</a>
+          <a class="btn ghost" href="https://wa.me/14122655719?text=Hi%20Core%20Versa%20Team%2C%20I%20want%20to%20join!" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">📲 Chat with Dispatcher</a>
+        </div>
+      </div>
+
+      <!-- Apply / Panel -->
+      <aside class="panel" id="apply" aria-label="Apply / Get Onboarded">
+        <h3>Apply / Get Onboarded</h3>
+        <div class="lead">Fast, simple, step-by-step.</div>
+        <form id="applyForm" action="https://formsubmit.co/coreversallc@gmail.com" method="POST" novalidate>
+          <!-- FormSubmit settings -->
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://coreversallc-ux.github.io/Core-Versa/thank-you.html" />
+          <!-- Honeypot (anti-spam) -->
+          <input type="text" name="_honey" id="hp" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <!-- Inputs -->
+          <label for="name">Full Name</label>
+          <input id="name" name="name" placeholder="Your full name" required aria-required="true" />
+          <label for="phone">Phone</label>
+          <input id="phone" type="tel" name="phone" placeholder="(###) ###-####" required aria-required="true" />
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="your@email.com" required aria-required="true" />
+          <label for="equipment">Equipment</label>
+          <input id="equipment" name="equipment" placeholder="26' Box (liftgate), Sprinter, Semi" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Location, availability, goals"></textarea>
+          <button class="btn" type="submit" style="width:100%; margin-top:10px">Start Onboarding</button>
+          <p class="mini" style="margin-top:8px">By submitting, you agree to be contacted by Core Versa LLC.</p>
+        </form>
+      </aside>
+    </div>
+
+    <div class="wrap" style="margin-top:22px">
+      <div class="heroart">
+        <img src="https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?q=80&w=1600&auto=format&fit=crop"
+             alt="Modern tractor-trailer staged at a distribution center at night" />
+      </div>
+    </div>
+  </main>
+
+  <!-- TRUST / HIGHLIGHTS -->
+  <section class="section" aria-labelledby="trust-title">
+    <div class="wrap trust">
+      <h2 id="trust-title" class="sr-only">Why Drivers Choose Core Versa</h2>
+      <div class="card">
+        <h4>Authority Access</h4>
+        <p class="mini">Operate under Core Versa LLC with MC &amp; DOT number access once approved.</p>
+      </div>
+      <div class="card">
+        <h4>Insurance (where applicable)</h4>
+        <p class="mini">$1,000,000 Liability • $1,000,000 Cargo • $100,000 General.</p>
+      </div>
+      <div class="card">
+        <h4>Amazon &amp; Top Brokers</h4>
+        <p class="mini">Priority access to premium expedited freight nationwide.</p>
+      </div>
+    </div>
+    <div class="wrap" style="margin-top:14px">
+      <div class="logos" aria-label="Broker & Shipper Network (sample marks)">
+        <!-- Replace with your own assets when ready -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/United_States_Postal_Service_logo_1993.svg" alt="USPS" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Coyote_Logo.svg" alt="Coyote Logistics (sample)" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CH_Robinson_logo.svg" alt="C.H. Robinson (sample)" />
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIPS (REVAMPED) -->
+  <section class="section" id="options" aria-labelledby="plans-title">
+    <div class="wrap">
+      <h2 id="plans-title" style="margin:0 0 16px; font-size:26px">💳 Membership Options</h2>
+
+      <div class="grid cols-3" style="margin-bottom:18px">
+        <!-- $50 STARTER -->
+        <article class="card" aria-label="$50 Starter Plan — Access Pass">
+          <h3>🔹 $50 Starter Plan — Access Pass</h3>
+          <p class="mini" style="margin-top:-6px">Perfect for drivers who want to get started and test the waters.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 6px">
+            <a class="btn" href="https://connect.intuit.com/t/scs-v1-f79ed5961e8d4d3db6ed43d4754feceb612a3a3bc3ea45d0890b2400636b4990c035ba9abbfb45268e21eb08486c4156?locale=EN_US" target="_blank" rel="noopener">👉 Activate Starter Plan Now</a>
+            <a class="btn alt" href="#apply">Apply Now</a>
+          </div>
+          <h4 style="margin:12px 0 6px">What you get:</h4>
+          <ul class="list" aria-label="Starter plan benefits">
+            <li>Full access to the load board + dispatcher support</li>
+            <li>Quick Start onboarding to get you moving fast</li>
+            <li>24/7 WhatsApp/Support chat access</li>
+            <li>Weekly updates with available loads</li>
+            <li>Simple 9% quick pay fee</li>
+          </ul>
+        </article>
+
+        <!-- $99 PRO -->
+        <article class="card" aria-label="$99 Pro Plan — Growth Track">
+          <h3>🔹 $99 Pro Plan — Growth Track</h3>
+          <p class="mini" style="margin-top:-6px">For drivers ready to grow earnings with consistent freight.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 6px">
+            <a class="btn" href="https://connect.intuit.com/t/scs-v1-bfc32b21c2544f8b9c88b24f9409628a66cb3b974fdb4993a221da11c1ffb15b8a3ec768000d41a3a5c670203277bf8b?locale=EN_US" target="_blank" rel="noopener">👉 Unlock Pro Plan Now</a>
+            <a class="btn alt" href="#apply">Apply Now</a>
+          </div>
+          <p class="mini" style="margin:6px 0 6px">Everything in Starter, PLUS:</p>
+          <ul class="list" aria-label="Pro plan benefits">
+            <li>Priority load assignments (get offered freight first)</li>
+            <li>A dedicated dispatcher for direct communication</li>
+            <li>A free consulting call (truck verification, Amazon profile, compliance docs)</li>
+            <li>Reduced 5% quick pay fee</li>
+          </ul>
+        </article>
+
+        <!-- $300 ELITE -->
+        <article class="card" aria-label="$300 Elite Plan — VIP Partner Access">
+          <h3>🔹 $300 Elite Plan — VIP Partner Access</h3>
+          <p class="mini" style="margin-top:-6px">For serious operators who want maximum earnings &amp; opportunities.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 6px">
+            <a class="btn" href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-d2d9efb5a7f24d62869a51ebce82ad12d678fc57b6f245e4b4bd62cb0f2a9a02f3c059721d46462cab326f96ad68601c?locale=EN_US" target="_blank" rel="noopener">👉 Join the Elite Plan Now</a>
+            <a class="btn alt" href="#apply">Apply Now</a>
+          </div>
+          <p class="mini" style="margin:6px 0 6px">Everything in Pro, PLUS:</p>
+          <ul class="list" aria-label="Elite plan benefits">
+            <li>Guaranteed minimum freight opportunities weekly</li>
+            <li>Exclusive access to high-paying dedicated routes/contracts</li>
+            <li>One-on-one dispatcher with priority texts/calls</li>
+            <li>Weekly performance reviews to maximize revenue</li>
+            <li>Discounts on fuel cards, truck rentals &amp; insurance</li>
+            <li>First access to premium contracts (USPS, Amazon, Expedited Freight)</li>
+            <li>Ultra-low 3% quick pay fee</li>
+            <li>Multiple trucks? Multiple dispatchers included</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STEPS -->
+  <section class="section" id="steps" aria-labelledby="steps-title">
+    <div class="wrap">
+      <h2 id="steps-title" style="margin:0 0 16px; font-size:26px">🪜 Simplified Onboarding — 3 Steps</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>➡️ Step 1 — Submit Documents</h3>
+          <p class="mini">Send: Driver’s License, Completed W-9, Truck Photos (front/back/sides/interior), and Truck Registration.</p>
+          <p class="mini">📧 <a href="mailto:coreversallc@gmail.com">coreversallc@gmail.com</a> • 📲 <a href="tel:+14122655719">(412) 265-5719</a></p>
+        </article>
+        <article class="card">
+          <h3>➡️ Step 2 — Pay Membership</h3>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="https://connect.intuit.com/t/scs-v1-f79ed5961e8d4d3db6ed43d4754feceb612a3a3bc3ea45d0890b2400636b4990c035ba9abbfb45268e21eb08486c4156?locale=EN_US" target="_blank" rel="noopener">$50 Starter</a>
+            <a class="btn" href="https://connect.intuit.com/t/scs-v1-bfc32b21c2544f8b9c88b24f9409628a66cb3b974fdb4993a221da11c1ffb15b8a3ec768000d41a3a5c670203277bf8b?locale=EN_US" target="_blank" rel="noopener">$99 Pro</a>
+            <a class="btn" href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-d2d9efb5a7f24d62869a51ebce82ad12d678fc57b6f245e4b4bd62cb0f2a9a02f3c059721d46462cab326f96ad68601c?locale=EN_US" target="_blank" rel="noopener">$300 Elite</a>
+          </div>
+          <p class="mini" style="margin-top:8px">📤 After payment, email a screenshot confirmation to <a href="mailto:coreversallc@gmail.com">coreversallc@gmail.com</a>.</p>
+        </article>
+        <article class="card">
+          <h3>➡️ Step 3 — Join the Load Board</h3>
+          <p class="mini">Post daily: location, truck size, availability, and one truck photo.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="https://chat.whatsapp.com/CJu4feCKixlKpCRVjW0J7c" target="_blank" rel="noopener">Join WhatsApp Load Board</a>
+            <a class="btn alt" href="https://wa.me/14122655719?text=Hi%20Core%20Versa%20Team%2C%20I%20want%20to%20get%20started!" target="_blank" rel="noopener">Message Dispatcher</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPMENT -->
+  <section class="section" id="equipment" aria-labelledby="equip-title">
+    <div class="wrap">
+      <h2 id="equip-title" style="margin:0 0 16px; font-size:26px">🚚 Accepted Equipment</h2>
+      <div class="grid cols-3" role="list">
+        <div class="card" role="listitem"><strong>26ft Box Trucks</strong><div class="mini">Liftgate required</div></div>
+        <div class="card" role="listitem"><strong>24ft Box Trucks</strong><div class="mini">Liftgate required</div></div>
+        <div class="card" role="listitem"><strong>16ft Box Trucks</strong><div class="mini">Liftgate required</div></div>
+        <div class="card" role="listitem"><strong>High-Roof Sprinter Vans</strong><div class="mini">Expedite-ready</div></div>
+        <div class="card" role="listitem"><strong>Semi Trucks</strong><div class="mini">OTR expedite loads available</div></div>
+      </div>
+      <p class="mini" style="margin-top:10px"><strong>✅ Box truck owners automatically qualify — no commercial insurance required.</strong> All freight runs under Core Versa LLC’s authority.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" aria-labelledby="testi-title">
+    <div class="wrap">
+      <h2 id="testi-title" style="margin:0 0 16px; font-size:26px">⭐ Driver Testimonials</h2>
+      <div class="grid cols-3">
+        <blockquote class="testi">
+          “Made back my membership in week one. Dispatcher keeps my 26’ moving daily.”
+          <footer>— John M., 26’ Box Owner-Operator</footer>
+        </blockquote>
+        <blockquote class="testi">
+          “Onboarding was same-day. The WhatsApp board + direct dispatcher chat is clutch.”
+          <footer>— Alicia R., Sprinter Van</footer>
+        </blockquote>
+        <blockquote class="testi">
+          “Pro plan + priority assignments keep me booked. Smooth payouts.”
+          <footer>— Kevin T., OTR Driver</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="wrap faq">
+      <h2 style="margin:0 0 16px; font-size:26px">❓ FAQ</h2>
+      <details>
+        <summary>Do I need to rent a box truck to join?</summary>
+        <div>No. Renting via our network is optional. You can onboard with your own equipment (Sprinter, 26' box w/ liftgate, or semi).</div>
+      </details>
+      <details>
+        <summary>Which plan should I choose?</summary>
+        <div>Starter ($50) is best for getting into the system fast. Pro ($99) adds priority assignments, a dedicated dispatcher, and reduced quick pay. Elite ($300) includes guaranteed weekly opportunities, premium contracts access, and the lowest quick pay fee.</div>
+      </details>
+      <details>
+        <summary>When do I get a dispatcher?</summary>
+        <div>Right after payment confirmation, we assign a dispatcher who starts booking loads with you.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="wrap" style="display:flex; gap:18px; justify-content:space-between; flex-wrap:wrap">
+      <div>
+        <strong>Core Versa LLC</strong><br />
+        Dispatching &amp; Driver Onboarding<br />
+        <a href="mailto:coreversallc@gmail.com">coreversallc@gmail.com</a> • <a href="tel:+14122655719">(412) 265-5719</a>
+      </div>
+      <div>
+        <a class="pill" href="#apply">Apply</a>
+        <a class="pill" href="#options">Memberships</a>
+        <a class="pill" href="https://chat.whatsapp.com/CJu4feCKixlKpCRVjW0J7c" target="_blank" rel="noopener">WhatsApp Board</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============== Small JS: Basic validation + honeypot ============== -->
+  <script>
+    (function(){
+      const form = document.getElementById('applyForm');
+      form.addEventListener('submit', function(e){
+        const hp = document.getElementById('hp');
+        if(hp && hp.value.trim() !== ''){
+          e.preventDefault(); return false; // bot caught
+        }
+        // Basic inline validation
+        const required = ['name','phone','email'];
+        for(const id of required){
+          const el = document.getElementById(id);
+          if(!el || !el.value.trim()){
+            e.preventDefault();
+            alert('Please complete: ' + id);
+            el && el.focus();
+            return false;
+          }
+        }
+      }, false);
+    })();
+  </script>
+</body>
+</html>
